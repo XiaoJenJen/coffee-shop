@@ -6,11 +6,13 @@ import "./layout.css"
 import "./bootstrap.min.css"
 
 import Navbar from "./global/navbar"
+import Footer from "./global/footer"
 
 const Layout = ({ children }) => (
   <>
     <Navbar />
     {children}
+    <Footer />
   </>
 )
 
