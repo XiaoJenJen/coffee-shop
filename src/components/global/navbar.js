@@ -54,7 +54,7 @@ export default class Navbar extends Component {
               )
             })}
             <li className="nav-item ml-sm-5">
-              <MdAddShoppingCart className="cart-icon" />
+              <MdAddShoppingCart className="cart-icon snipcart-checkout" />
             </li>
           </ul>
         </div>
