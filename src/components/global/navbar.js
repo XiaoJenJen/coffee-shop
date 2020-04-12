@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../images/logo.svg"
+import logo from "../../images/logo_2.svg"
 import { MdAddShoppingCart } from "react-icons/md"
 
 export default class Navbar extends Component {
@@ -31,7 +31,10 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-light navbar-light">
+      <nav
+        className="navbar navbar-expand-sm navbar-light"
+        style={{ backgroundColor: "rgba(241, 227, 216, 0.5)" }}
+      >
         <Link to="/" className="navbar-brand">
           <img src={logo} width="30" height="30" alt="coffee" />
         </Link>

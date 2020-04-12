@@ -1,9 +1,10 @@
 :root {
   --mainBrown: #2d1e1f;
-  --mainYellow: rgb(255, 158, 9);
-  --mainGrey: #ece8dc;
+  --mainPink: #ce2761;
+  --mainLightPink: rgba(243, 163, 178, 0.25);
   --mainWhite: #fff;
   --mainDark: #222;
+  /* #ece8dc rgb(255, 158, 9)*/
 }
 
 body {
@@ -23,11 +24,11 @@ h6 {
 }
 
 .text-yellow {
-  color: var(--mainYellow);
+  color: var(--mainPink);
 }
 .cart-icon {
   cursor: pointer;
-  color: var(--mainYellow);
+  color: var(--mainPink);
   font-size: 2rem;
 }
 
@@ -49,11 +50,11 @@ h6 {
 }
 
 .btn.btn-yellow {
-  color: var(--mainYellow);
-  border-color: var(--mainYellow);
+  color: var(--mainPink);
+  border-color: var(--mainPink);
 }
 .btn.btn-yellow:hover {
-  background: var(--mainYellow);
+  background: var(--mainPink);
   color: var(--mainBrown);
 }
 
@@ -63,5 +64,5 @@ h6 {
 
 .menu,
 .contact {
-  background: var(--mainGrey);
+  background: var(--mainLightPink);
 }
