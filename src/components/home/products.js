@@ -16,6 +16,9 @@ const getProducts = graphql`
               src
               ...GatsbyContentfulFluid_tracedSVG
             }
+            file {
+              url
+            }
           }
         }
       }
