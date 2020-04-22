@@ -4,6 +4,6 @@
   JennyX Café 🥯☕
 </h1>
 
-<p align="center">Kick off your coffee shop business with JennyX Café 🥯☕ web application. Our E-commerce features help you scale up your customers from all over the world.</p>
+<p align="center">Kick off your coffee shop business with JennyX Café. Our E-commerce features help you scale up your customers from all over the world 🥰.</p>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
